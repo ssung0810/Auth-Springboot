@@ -1,10 +1,13 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-    <title>스프링부트 인증페이지 만들기</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-</head>
-<body>
-    <h1>페이지 타이틀</h1>
-</body>
-</html>
+{{>layout/header}}
+
+<div id="box" class="wp300">
+    <h1>로그인 화면</h1>
+    <form>
+        <input type="text" id="id" class="wp300 mg-b15" placeholder="Please into ID">
+        <input type="text" id="pw" class="wp300 mg-b15" placeholder="Please into Password">
+        <button id="btn" class="wp300" value="">LOGIN</button>
+    </form>
+    <a href="/signup">Sign up</a>
+</div>
+
+{{>layout/footer}}
