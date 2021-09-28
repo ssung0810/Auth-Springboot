@@ -25,10 +25,10 @@ public class Signup {
     private String email;
 
     @Column(nullable = false)
-    private int phone;
+    private String phone;
 
     @Builder
-    public Signup(String id, String pw, String email, int phone) {
+    public Signup(String id, String pw, String email, String phone) {
         this.id = id;
         this.pw = pw;
         this.email = email;

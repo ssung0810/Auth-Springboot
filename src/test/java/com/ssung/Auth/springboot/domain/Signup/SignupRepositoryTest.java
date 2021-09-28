@@ -29,7 +29,7 @@ public class SignupRepositoryTest {
         String id = "ssung";
         String pw = "qwer1234";
         String email = "qwer@naver.com";
-        int phone = 01011112222;
+        String phone = "01011112222";
 
         signupRepository.save(Signup.builder()
                 .id(id)

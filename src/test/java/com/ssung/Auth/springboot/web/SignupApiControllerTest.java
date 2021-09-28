@@ -43,7 +43,7 @@ public class SignupApiControllerTest {
         String id = "ssung";
         String pw = "qwer1234";
         String email = "qwer@naver.com";
-        int phone = 00011112222;
+        String phone = "00011112222";
 
         SignupSaveRequestDto requestDto = SignupSaveRequestDto.builder()
                 .id(id)

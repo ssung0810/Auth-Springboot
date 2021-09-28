@@ -3,13 +3,19 @@
 <div id="box" class="wp300">
     <h2>회원가입</h2>
     <form>
-        <input type="text" class="wp300 mg-b15" id="id" placeholder="Enter to Id">
-        <input type="text" class="wp300 mg-b15" id="pw" placeholder="Enter to Password">
-        <input type="text" class="wp300 mg-b15" id="pwck" placeholder="Enter to PasswordCheck">
-        <input type="text" class="wp300 mg-b15" id="email" placeholder="Enter to Email">
-        <input type="text" class="wp300 mg-b15" id="phone" placeholder="Enter to Phone">
-        <button id="signup" class="wp300">Sign up</button>
+        <input type="text" class="w100 mg-b15" id="id" placeholder="Enter to Id">
+        <input type="password" class="w100 mg-b15" id="pw" placeholder="Enter to Password">
+        <input type="password" class="w100 mg-b15" id="pwck" placeholder="Enter to PasswordCheck">
+        <input type="text" class="w100 mg-b15" id="email" placeholder="Enter to Email">
+        <div class="w100">
+            <input type="text" class="w28" id="phone1" placeholder="000">
+            <input type="text" class="w28" id="phone2" placeholder="1111">
+            <input type="text" class="w28" id="phone3" placeholder="2222">
+        </div>
     </form>
+
+    <a href="/" role="button">취소</a>
+    <button id="signup" class="wp300">Sign up</button>
 </div>
 
 {{> layout/footer }}

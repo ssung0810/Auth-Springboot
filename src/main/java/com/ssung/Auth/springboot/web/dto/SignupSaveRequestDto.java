@@ -12,10 +12,10 @@ public class SignupSaveRequestDto {
     private String id;
     private String pw;
     private String email;
-    private int phone;
+    private String phone;
 
     @Builder
-    public SignupSaveRequestDto(String id, String pw, String email, int phone) {
+    public SignupSaveRequestDto(String id, String pw, String email, String phone) {
         this.id = id;
         this.pw = pw;
         this.email = email;
