@@ -1,14 +1,16 @@
-{{>layout/header}}
+{{> layout/header }}
 
-<div id="box" class="wp300">
-    <h1>로그인 화면</h1>
-    <form>
-        <input type="text" id="email" class="wp300 mg-b15" placeholder="이메일을 입력하세요">
-        <input type="text" id="password" class="wp300 mg-b15" placeholder="비밀번호를 입력하세요">
-        <button id="btn" class="btn btn-primary wp300" value="">LOGIN</button>
-    </form>
-    <a href="/signup">Sign up</a>
+<!-- Page content goes here -->
+<div class="container">
+    <div class="jumbotron">
+        <h1 class="display-4">Hello, Spring Boot Security!</h1>
+        <p class="lead">This is the home page of our web application. Anyone can access it, even if they have not signed in.</p>
+        <hr class="my-4">
+        <p>Using this example, you will become more familiar with Spring Security concepts:)</p>
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="https://spring.io/projects/spring-security" role="button">Learn more about Spring Security</a>
+        </p>
+    </div>
 </div>
 
-{{>layout/footer}}
-
+{{> layout/footer }}
