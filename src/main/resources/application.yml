@@ -3,3 +3,12 @@ spring:
     user:
       name: ssung
       password: ssung1234
+
+server:
+  port: 443
+  ssl:
+    enabled: true
+    key-store: src/main/resources/bootsecurity.p12
+    key-sotre-password: ssung123
+    key-sotre-type: PKCS12
+    key-alias: bootsecurity
